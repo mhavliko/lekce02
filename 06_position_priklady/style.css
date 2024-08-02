@@ -10,6 +10,99 @@ body {
 	margin: 0;
 }
 
-
 /* tady bude tvůj kód */
 
+header a {
+  padding: 0 30px;
+  color: white;
+  text-decoration-line: none;
+}
+
+body main {
+  margin: 100px 200px;
+
+}
+
+header {
+  background-color: orangered;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.obdelniky {
+  background-color: lightgrey;
+  border-style: dashed;
+  border-color: darkgray;
+  position: relative;
+  height: 500px;
+}
+
+.obdelniky div {
+  width: 300px;
+  text-align: center;
+  padding: 20px 50px;
+  position: absolute;
+}
+
+.levyhorni {
+  background-color: green;
+  top: 0;
+  left: 0;
+}
+
+.pravyuprostred {
+  background-color: orange;
+  top: 200px;
+  right: 0;
+}
+
+.pravydolni {
+  background-color: blue;
+  right: 0;
+  bottom: 0;
+}
+
+.dolniuprostred {
+  background-color: red;
+  left: 150px;
+  bottom: 0;
+}
+
+.neprectene {
+  border-style: solid;
+  border-color: lightgray;
+  padding: 10px 80px 10px 30px;
+  display: inline-block;
+  position: relative;
+  margin: 20px 30%;
+}
+
+.neprectene span {
+  background-color: red;
+  opacity: 70%;
+  color: white;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  ;
+  border-radius: 50%;
+  padding: 7px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
